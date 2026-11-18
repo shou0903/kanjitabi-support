@@ -11,3 +11,8 @@ a { color:var(--shu); }
 nav { margin-top:3em; padding-top:1.2em; border-top:1px solid var(--line); font-family:"Hiragino Sans",sans-serif; font-size:.9rem; }
 nav a { margin-right:1.2em; }
 .date { color:var(--soft); font-size:.85rem; }
+.dl { display:inline-block; background:var(--ai); color:#fff; text-decoration:none; font-family:"Hiragino Sans",sans-serif; font-weight:700; padding:.8em 1.6em; border-radius:12px; }
+.note { color:var(--soft); font-size:.85rem; font-family:"Hiragino Sans",sans-serif; }
+.shots { display:flex; gap:12px; overflow-x:auto; margin:1.6em 0; padding-bottom:6px; }
+.shots img { width:46%; max-width:220px; height:auto; flex:0 0 auto; border-radius:14px; border:1px solid var(--line); }
+ul { padding-left:1.2em; }
